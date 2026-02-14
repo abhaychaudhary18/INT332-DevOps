@@ -1,10 +1,4 @@
-Perfect 👍
-Below is a **FULL, PROFESSIONAL README.md** for your repository **INT322 / INT332 DevOps** (you can adjust the course code if your teacher uses INT332 instead of INT322).
 
-👉 **Do NOT type this in CMD**
-👉 Open `README.md` in **Notepad / VS Code**, **copy–paste**, save, then commit.
-
----
 
 
 # INT322 / INT332 – DevOps Virtualization & Configuration Management
