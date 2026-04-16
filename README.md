@@ -1,153 +1,98 @@
+# DevOps Course README
 
-
-
-# INT322 / INT332 – DevOps Virtualization & Configuration Management
-
-This repository contains **unit-wise study material, practical notes, Docker commands, labs, and PPTs**
-for the course **DevOps Virtualization & Configuration Management**.
-
-The repository is structured using **Git branches**, where each branch represents a **separate unit**
-as taught in class. This approach follows real-world DevOps practices and makes learning,
-revision, and evaluation easy.
+## Course Overview
+This README contains comprehensive details of the 6 units covered in the DevOps course. Each unit is designed to provide a thorough understanding of essential DevOps practices, tools, and methodologies.
 
 ---
 
-## 📌 Repository Objectives
+### Unit 1: DevOps & Docker Basics
+**Learning Outcomes:**
+- Understand the fundamentals of DevOps and its importance in software development and IT operations.
+- Introduce Docker, its components, and how it revolutionizes application development.
 
-- Understand DevOps fundamentals and infrastructure
-- Learn containerization using Docker
-- Practice Docker commands and container management
-- Study microservices using Docker Compose
-- Maintain clean, unit-wise version control using Git branches
+**Syllabus:**
+- Overview of DevOps Principles
+- Introduction to Docker
+- Installing Docker
+- Docker Commands and Networking
 
----
-
-## 🌿 Branch Structure (Unit-wise)
-
-Each unit is maintained in a **separate branch**:
-
-| Branch Name | Unit Description |
-|------------|------------------|
-| `main` | Course overview and repository index |
-| `unit-1` | DevOps basics & Docker fundamentals |
-| `unit-2` | Dockerfile, image building & container management |
-| `unit-3` | Microservices using Docker Compose |
-
-📌 **Note:** Switch branches to access unit-specific material.
+**Practical Guide:**
+- Setting up a simple web application using Docker.
+- Running containers and managing images.
 
 ---
 
-## 📂 Unit 1 – DevOps & Docker Basics (`unit-1`)
+### Unit 2: Dockerfile & Container Management
+**Learning Outcomes:**
+- Learn to create Dockerfiles for building custom images.
+- Understand container orchestration and management.
 
-### Contents:
-- 📘 Theory notes (Markdown)
-- 🐳 Complete Docker CLI commands
-- 🧪 Hands-on Docker labs
-- 📊 PowerPoint presentations
+**Syllabus:**
+- Creating and optimizing Dockerfiles
+- Managing Docker containers
+- Volume management
+- Networking between containers
 
-### Topics Covered:
-- Introduction to DevOps
-- DevOps lifecycle & benefits
-- Virtualization vs Containers
-- Containerization concepts
-- Docker architecture
-- Docker images & containers
-- Docker CLI commands
-- Docker objects (images, containers, volumes, networks)
-
-### Folder Structure:
-
-
-unit-1/
-├── notes/
-├── docker-basics/
-├── lab/
-└── ppt/
-
-
+**Practical Guide:**
+- Build a multi-tier application with Docker Compose using Dockerfiles.
 
 ---
 
-## 📂 Unit 2 – Dockerfile & Container Management (`unit-2`)
+### Unit 3: Microservices & Docker Compose
+**Learning Outcomes:**
+- Understand microservices architecture and how Docker Compose facilitates microservices development.
 
-### Topics Covered:
-- Dockerfile instructions
-- Image building & layering
-- Container lifecycle management
-- Docker networking
-- Docker volumes & storage
-- Image push/pull from registries
+**Syllabus:**
+- Introduction to Microservices
+- Designing microservices with Docker Compose
+- Service Discovery and Load Balancing
 
----
-
-## 📂 Unit 3 – Microservices & Docker Compose (`unit-3`)
-
-### Topics Covered:
-- Monolithic vs Microservices architecture
-- Introduction to Docker Compose
-- docker-compose.yml structure
-- Multi-container applications
-- Service orchestration
-- Real-world microservice examples
+**Practical Guide:**
+- Build and deploy a microservices application using Docker Compose.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+### Unit 4: Maven Build Automation
+**Learning Outcomes:**
+- Learn how to utilize Maven for Java project management and build automation.
 
-- Git & GitHub
-- Docker
-- Docker Hub
-- Docker Compose
-- Markdown
-- Microsoft PowerPoint
+**Syllabus:**
+- Introduction to Maven
+- Setting up a Maven project
+- Maven Life Cycle
 
----
-
-## 🎓 Academic Use
-
-This repository is created for:
-- University coursework
-- Practical lab reference
-- Exam preparation
-- Viva and presentations
-- DevOps portfolio demonstration
+**Practical Guide:**
+- Create a Maven project, implement build automation processes, and manage dependencies.
 
 ---
 
-## 👨‍🎓 Author
+### Unit 5: GitHub Actions CI/CD
+**Learning Outcomes:**
+- Familiarize yourself with CI/CD practices using GitHub Actions.
 
-**Abhay Chaudhary**  
-Student, Lovely Professional University  
-Course: DevOps Virtualization & Configuration Management  
+**Syllabus:**
+- Introduction to CI/CD
+- Creating GitHub Actions workflows
+- Best practices for automation
 
----
-
-## ⭐ How to Use This Repository
-
-1. Clone the repository  
-2. Switch to the required unit branch  
-3. Study notes, commands, labs, and PPTs  
-4. Practice Docker commands locally  
-
-```bash
-git checkout unit-1
-````
+**Practical Guide:**
+- Implement a CI/CD pipeline for a sample project using GitHub Actions.
 
 ---
 
-## 📌 Note
+### Unit 6: Jenkins CI/CD
+**Learning Outcomes:**
+- Understand Jenkins and its role in Continuous Integration and Continuous Delivery.
 
-This repository follows **industry-style Git branching** to simulate
-real DevOps workflows.
+**Syllabus:**
+- Introduction to Jenkins
+- Building a Jenkins pipeline
+- Integrating with GitHub repositories
+
+**Practical Guide:**
+- Create a Jenkins pipeline for a microservices application, integrating automated tests and deployment.
 
 ---
 
-⭐ If you find this repository useful, feel free to star it.
-
-````
-
----
-
-
-
-
+## Conclusion
+By the end of this course, students will have a solid understanding of DevOps practices and tools essential for modern software development. They will be equipped with the skills to implement CI/CD pipelines and manage containerized applications effectively.
